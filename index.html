@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header start -->
+    <header id="header">
+      <div class="container">
+        <div class="headbox">
+          <div class="header-left">
+            <button class="icon-button">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <span class="logo">YouTube</span>
+          </div>
+          <div class="header-middle">
+            <form class="search-form">
+              <input type="search" placeholder="Search" class="search-input" />
+              <button type="submit" class="icon-button search-button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+          <div class="header-right">
+            <i class="fa-solid fa-user profile"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+    <main>
+      <!-- player start -->
+      <section id="player">
+        <div class="container">
+          <div class="playbox">
+            <div class="video-section">
+              <div class="video-player">
+                <video src="videos/love.mp4" controls></video>
+              </div>
+              <h1 class="video-title">Never Gonna Give You Up - Rick Astley</h1>
+              <div class="channel-info">
+                <div class="channel-avatar">C</div>
+                <div class="channel-details">
+                  <p class="channel-name">Rick Astley</p>
+                  <p class="channel-subscribers">1M subscribers</p>
+                </div>
+                <button class="subscribe-button">Subscribe</button>
+              </div>
+              <div class="video-actions">
+                <button class="action-button like">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    viewBox="15.63599967956543 12.859000205993652 32.72755241394043 38.28199768066406"
+                    enable-background="new 0 0 64 64"
+                  >
+                    <g>
+                      <g></g>
+
+                      <path
+                        stroke="#000000"
+                        stroke-width="1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        d="   M24.345,50.641H18.68c-1.405,0-2.544-1.139-2.544-2.544V33.004c0-1.405,1.139-2.544,2.544-2.544h5.665   c1.405,0,2.544,1.139,2.544,2.544v15.093C26.889,49.502,25.75,50.641,24.345,50.641z"
+                      />
+                    </g>
+                    <g>
+                      <path
+                        stroke="#000000"
+                        stroke-width="1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        d="   M42.906,30.46h-3.423c-0.88,0-1.593-0.713-1.593-1.593v-1.744c0-3.301-2.676-5.978-5.978-5.978h0c-0.985,0-1.784,0.799-1.784,1.784   v3.393c0,2.614-1.193,5.085-3.239,6.711l0,0v16.055h14.564c2.423,0,4.49-1.752,4.889-4.141l1.453-8.716   C48.298,33.21,45.969,30.46,42.906,30.46z"
+                      />
+                    </g>
+                    <g>
+                      <line
+                        fill="none"
+                        stroke="#000000"
+                        stroke-width="1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        x1="31.68"
+                        y1="16.464"
+                        x2="31.68"
+                        y2="13.359"
+                      />
+
+                      <line
+                        fill="none"
+                        stroke="#000000"
+                        stroke-width="1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        x1="42.77"
+                        y1="22.516"
+                        x2="44.965"
+                        y2="20.32"
+                      />
+
+                      <line
+                        fill="none"
+                        stroke="#000000"
+                        stroke-width="1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        x1="20.61"
+                        y1="22.698"
+                        x2="18.415"
+                        y2="20.503"
+                      />
+                    </g>
+                  </svg>
+                  <span class="likestatus">like</span>
+                </button>
+                <button class="action-button deslike">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    viewBox="15.63599967956543 16.75200080871582 32.72755241394043 30.495996475219727"
+                    enable-background="new 0 0 64 64"
+                  >
+                    <g>
+                      <path
+                        stroke="#000000"
+                        stroke-width="1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        d="   M42.906,37.433h-3.423c-0.88,0-1.593,0.713-1.593,1.593v1.744c0,3.301-2.676,5.978-5.978,5.978h0c-0.985,0-1.784-0.799-1.784-1.784   V41.57c0-2.614-1.193-5.085-3.239-6.711h0V19.606c0-0.443,0.359-0.801,0.801-0.801h13.763c2.423,0,4.49,1.752,4.889,4.141   l1.453,8.716C48.298,34.683,45.969,37.433,42.906,37.433z"
+                      />
+
+                      <line
+                        fill="none"
+                        stroke="#000000"
+                        stroke-width="1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        x1="42.456"
+                        y1="31.409"
+                        x2="47.052"
+                        y2="31.409"
+                      />
+
+                      <line
+                        fill="none"
+                        stroke="#000000"
+                        stroke-width="1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        x1="42.456"
+                        y1="24.409"
+                        x2="46.586"
+                        y2="24.409"
+                      />
+
+                      <line
+                        fill="none"
+                        stroke="#000000"
+                        stroke-width="1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        x1="34.741"
+                        y1="37.433"
+                        x2="39.338"
+                        y2="37.433"
+                      />
+                    </g>
+                    <g>
+                      <path
+                        stroke="#000000"
+                        stroke-width="1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        d="   M24.345,17.252H18.68c-1.405,0-2.544,1.139-2.544,2.544V34.89c0,1.405,1.139,2.544,2.544,2.544h5.665   c1.405,0,2.544-1.139,2.544-2.544V19.796C26.889,18.391,25.75,17.252,24.345,17.252z"
+                      />
+                    </g>
+                    <g>
+                      <line
+                        fill="none"
+                        stroke="#000000"
+                        stroke-width="1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        x1="21.513"
+                        y1="31.409"
+                        x2="21.513"
+                        y2="27.909"
+                      />
+                    </g>
+                  </svg>
+                  <span class="deslikestatus">deslike</span>
+                </button>
+                <button class="action-button">
+                  <i class="fa-solid fa-share"></i>
+                  <span>Share</span>
+                </button>
+                <button class="action-button">
+                  <i class="fa-solid fa-download"></i>
+                  <span>download</span>
+                </button>
+                <button class="action-button">
+                  <i class="fa-regular fa-bookmark"></i>
+                  <span>save</span>
+                </button>
+                <button class="action-button">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                  <span>more</span>
+                </button>
+              </div>
+              <div class="video-description">
+                <b class="description-title">Description</b>
+                <p class="description-content">
+                  Rick Astley's official music video for "Never Gonna Give You
+                  Up"...
+                </p>
+              </div>
+              <div class="comments-section">
+                <h2>Comments</h2>
+                <form class="comment-form">
+                  <div class="profile">U</div>
+                  <div class="cmnbox">
+                    <textarea
+                      placeholder="Add a comment..."
+                      class="comment-input"
+                    ></textarea>
+                    <button type="submit" class="comment-submit">
+                      Throw Comment
+                    </button>
+                  </div>
+                </form>
+                <div class="comments-list">
+                  <div class="comment">
+                    <div class="profile">J</div>
+                    <div class="comment-details">
+                      <b class="comment-author">John Doe</b>
+                      <p class="comment-text">Great video! Very informative.</p>
+                      <div class="comment-actions">
+                        <button class="comment-action">
+                          <img src="svg/like.svg" alt="like.svg" />
+                          <span class="likednumber">16</span>K
+                        </button>
+                        <button class="comment-action">
+                          <img src="svg/deslike.svg" alt="deslike.svg" />
+                          <span class="deslikenumber">2.1</span>K
+                        </button>
+                        <button class="comment-action">
+                          <i class="fa-solid fa-reply-all"></i> Reply
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <aside class="recommendations">
+              <h2>Recommended Videos</h2>
+              <div class="recommendation">
+                <div class="thumbnail"></div>
+                <div class="recommendation-details">
+                  <p class="recommendation-title">Recommended Video Title 1</p>
+                  <p class="recommendation-meta">
+                    Channel Name • 100K views • 1 day ago
+                  </p>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <!-- player end -->
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
