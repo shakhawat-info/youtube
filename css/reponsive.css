@@ -1,0 +1,52 @@
+@media (max-width: 575.98px) {
+  /* header start */
+  #header {
+    padding: 10px;
+  }
+  .header-left button {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+  .logo {
+    font-size: 18px;
+  }
+  .profile {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+  .search-input {
+    padding: 5px;
+    border-radius: 20px 0 0 20px;
+    width: 80%;
+  }
+  /* header end */
+  #player {
+    padding: 10px;
+  }
+  #player .playbox {
+    display: block;
+  }
+  .video-title {
+    font-size: 20px;
+  }
+  #player .playbox .video-section .video-actions {
+    column-gap: 10px;
+  }
+  #player .playbox .video-section .video-actions button span {
+    display: none;
+  }
+  .comments-section {
+    margin-top: 10px;
+  }
+  .comment-form .cmnbox button {
+    width: 45%;
+}
+.recommendations {
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.recommendations h2{
+    font-size: 20px;
+}
+}
